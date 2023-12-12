@@ -1,0 +1,52 @@
+body    {
+    font-family: Garamond;
+}
+
+#lewy   {
+    background-color: #00600F;
+    color: white;
+    text-align: center;
+    width: 75%;
+    height: 90px;
+}
+
+#prawy  {
+    background-color: #00600F;
+    color: white;
+    width: 25%;
+    height: 90px;
+}
+
+main    {
+    background-color: #c8e6c9;
+    height: 600px;
+    overflow: scroll;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer  {
+    background-color: #00600F;
+    color: white;
+}
+
+h5  {
+    background-color: #00600F;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    margin: 0px;
+}
+
+.produkt    {
+    margin: 10px;
+    border: 1px #00600F solid;
+    width: 300px;
+}
+
+header  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
